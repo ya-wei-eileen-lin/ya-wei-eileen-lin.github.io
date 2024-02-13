@@ -75,6 +75,43 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <!-- -------------------------- HPA -------------------------- -->
+          <tr onmouseout="hpa_stop()" onmouseover="hpa_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hpa_image'>
+                  <img src='images/hpa_1.png' width="160"></div>
+                <img src='images/hpa_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gog_start() {
+                  document.getElementById('hpa_image').style.opacity = "1";
+                }
+
+                function gog_stop() {
+                  document.getElementById('hpa_image').style.opacity = "0";
+                }
+                gog_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://proceedings.neurips.cc/paper/2021/hash/2ed80f6311c1825feb854d78fa969d34-Abstract.html">
+                <papertitle>Hyperbolic Procrustes Analysis Using Riemannian Geometry</papertitle>
+              </a>
+              <br>
+              <strong>Ya-Wei Eileen Lin</strong>,
+              <a href="https://medicine.yale.edu/bbs/computational/profile/yuval_kluger/">Yuval Kluger</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+              <br>
+              <em>NeurIPS</em>, 2021
+              <br>
+              <a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/2ed80f6311c1825feb854d78fa969d34-Paper.pdf">paper</a>
+              <p></p>
+            </td>
+          </tr>
+
+        
 		
           <!-- -------------------------- GOG -------------------------- -->
           <tr onmouseout="gog_stop()" onmouseover="gog_start()">
