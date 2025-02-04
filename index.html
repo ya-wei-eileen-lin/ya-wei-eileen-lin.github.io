@@ -60,6 +60,42 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- -------------------------- TWD -------------------------- -->
+          <tr onmouseout="hdd_stop()" onmouseover="hdd_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hdd_image'>
+                  <img src='images/TWD_1.png' width="160"></div>
+                <img src='images/TWD_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function hdd_start() {
+                  document.getElementById('twd_image').style.opacity = "1";
+                }
+
+                function hdd_stop() {
+                  document.getElementById('twd_image').style.opacity = "0";
+                }
+                hdd_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2410.21107">
+                <papertitle>Tree-Wasserstein Distance for High Dimensional Data with a Latent Feature Hierarchy</papertitle>
+              </a>
+              <br>
+              <strong>Ya-Wei Eileen Lin</strong>,
+              <a href="https://cpsc.yale.edu/people/ronald-coifman">Ronald R. Coifman</a>,
+              <a href="http://mishne.ucsd.edu">Gal Mishne</a>,
+              <a href="https://ronentalmon.com/">Ronen Talmon</a>
+              <br>
+              <em>ICLR</em>, 2025
+              <br>
+              <!-- <a href="https://proceedings.neurips.cc/paper_files/paper/2021/file/2ed80f6311c1825feb854d78fa969d34-Paper.pdf">paper</a> -->
+              <p></p>
+            </td>
+          </tr>
+
           <!-- -------------------------- NLSF -------------------------- -->
           <tr onmouseout="hdpa_stop()" onmouseover="hdpa_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -300,7 +336,7 @@
           <tr>
             <td style="padding:20px;width:1000%;vertical-align:top">
               <p style="text-align:left;margin-top: -10px;">
-                I'm a reviewer of ICLR, JMLR, ICML, ECCV, NeurIPS and AAAI. 
+                I'm a reviewer of ICLR, JMLR, ICML, CVPR,  ECCV, NeurIPS, TMLR,  AAAI and AISTATS. 
               </p>
           </td>
         </tr>
