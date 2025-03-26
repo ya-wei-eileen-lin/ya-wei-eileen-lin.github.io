@@ -60,6 +60,45 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          <!-- -------------------------- Finsler Multidimensional Scaling -------------------------- -->
+          <tr onmouseout="fmds_stop()" onmouseover="fmds_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='fmds_image'>
+                  <img src='images/FinslerMDS1.png' width="160"></div>
+                <img src='images/FinslerMDS2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function fmds_start() {
+                  document.getElementById('fmds_image').style.opacity = "1";
+                }
+
+                function fmds_stop() {
+                  document.getElementById('fmds_image').style.opacity = "0";
+                }
+                fmds_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2503.18010"> 
+              	<papertitle> Finsler Multi-Dimensional Scaling: Manifold Learning for Asymmetric Dimensionality Reduction and Embedding  </papertitle>
+	    	</a>
+              <br>
+              <a href="https://tommoo.github.io">Thomas Dagès</a>*,
+              <a href="https://simonwebertum.github.io/">Simon Weber</a>*,
+              <strong>Ya-Wei Eileen Lin</strong>,
+              <a href="https://ronentalmon.com">Ronen Talmon</a>,
+              <a href="https://cvg.cit.tum.de/members/cremers">Daniel Cremers</a>,
+              <a href="https://mic.net.technion.ac.il">Michael Lindenbaum</a>,
+              <a href="https://freddy.cs.technion.ac.il">Alfred M. Bruckstein</a>,
+              <a href="https://ron.cs.technion.ac.il">Ron Kimmel</a>
+              <br>
+              <em>CVPR</em>, 2025
+              <br>
+              <p></p>
+            </td>
+          </tr>
+
           <!-- -------------------------- TWD -------------------------- -->
           <tr onmouseout="hdd_stop()" onmouseover="hdd_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
